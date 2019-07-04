@@ -2,10 +2,10 @@ package interfaces
 
 import (
 	"fmt"
+	"github.com/izayacity/go-cleanarchitecture/src/usecases"
 	"io"
 	"net/http"
 	"strconv"
-	"usecases"
 )
 
 type OrderInteractor interface {

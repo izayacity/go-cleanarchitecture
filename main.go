@@ -1,16 +1,16 @@
 package main
 
 import (
-	"usecases"
-	"interfaces"
-	"infrastructure"
+	"github.com/izayacity/go-cleanarchitecture/src/infrastructure"
+	"github.com/izayacity/go-cleanarchitecture/src/interfaces"
+	"github.com/izayacity/go-cleanarchitecture/src/usecases"
 	"net/http"
 )
 
 func main() {
 	dbHandler := infrastructure.NewSqliteHandler("/var/tmp/production.sqlite")
 
-	handlers := make(map[string] interfaces.DbHandler)
+	handlers := make(map[string]interfaces.DbHandler)
 	handlers["DbUserRepo"] = dbHandler
 	handlers["DbCustomerRepo"] = dbHandler
 	handlers["DbItemRepo"] = dbHandler

@@ -11,12 +11,12 @@ Install
 
 Create a new directory, where to host this project
 
-    mkdir -p $GOPATH:src/github.com/manuelkiessling/
+    mkdir -p $GOPATH:src/github.com/izayacity/
 
 Check out the source
 
-    cd $GOPATH:src/github.com/manuelkiessling/
-    git clone https://github.com/manuelkiessling/go-cleanarchitecture
+    cd $GOPATH:src/github.com/izayacity/
+    git clone https://github.com/izayacity/go-cleanarchitecture
 
 Setup the GOPATH to include this path
 

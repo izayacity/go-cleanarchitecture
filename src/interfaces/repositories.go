@@ -1,9 +1,9 @@
 package interfaces
 
 import (
-	"domain"
 	"fmt"
-	"usecases"
+	"github.com/izayacity/go-cleanarchitecture/src/domain"
+	"github.com/izayacity/go-cleanarchitecture/src/usecases"
 )
 
 type DbHandler interface {
